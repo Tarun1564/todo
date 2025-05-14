@@ -21,14 +21,25 @@ a {
 a:hover {
   color: #535bf2;
 }
-
-
-
+div{
+  width: 100%;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.Task{
+  width: 80%;
+  margin: auto;
+  height: 40px;
+  padding: 8px;
+  border-radius: 3px;
+  background-color:gainsboro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -59,4 +70,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+li{
+  list-style: none;
+}
+.db{
+  width: 30px;
+  height: 20px;
+  font-size: x-small;
+  padding: 5px;
+  padding-bottom: 2px;
+}
+.taskc{
+  width: 60%;
+  margin:auto;
 }
